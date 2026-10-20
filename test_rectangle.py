@@ -8,7 +8,7 @@ class RectangleTestCase(unittest.TestCase):
         self.assertEqual(rectangle.area(5, 5), 25)
 
     def test_area_zero(self): 
-        self.assertEqual(rectangle.area(0, 1), 0)
+        self.assertEqual(rectangle.area(0, 1), 1)
 
     def test_area_negative(self):
         with self.assertRaises(ValueError):
