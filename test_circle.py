@@ -25,3 +25,7 @@ class CircleTestCase(unittest.TestCase):
     def test_perimeter_negative(self):
         with self.assertRaises(ValueError):
             circle.perimeter(-2)
+
+    def test_perimeter_negative(self):
+        with self.assertRaises(ValueError):
+            circle.perimeter(-4)
